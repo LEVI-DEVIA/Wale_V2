@@ -1,0 +1,11 @@
+framework module livespeechtotext {
+  umbrella header "livespeechtotext-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module livespeechtotext.Swift {
+  header "livespeechtotext-Swift.h"
+  requires objc
+}

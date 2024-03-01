@@ -1,0 +1,11 @@
+Switch.adaptive(
+                  value: lights,
+                  onChanged: (bool value) {
+                    setState(() {
+                      lights = value;
+                    });
+                  },
+                  iconOn: Icons.videocam,
+                  iconOff: Icons.mic,
+                   // Couleur de la barre de progression du bouton lorsque le bouton est activé
+                ),
